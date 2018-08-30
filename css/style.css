@@ -3,16 +3,13 @@
 }
 
 body {
+  align-items: baseline;
   background-color: #303030;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
 
-.arrow {
-  display: block;
-  float: right;
-}
 
 .container {
   margin: 0 auto;
@@ -29,14 +26,19 @@ h3 {
   font-size: .875em; /* 14/16 */
 }
 
-.location : hover {
-  background-color: #979797;
+.arrow {
+  display: block;
+  float: right;
 }
 
 .location {
-  background-color: #EEEEEE;
+  background-color: #cccccc;
   border: 1px solid #979797;
   padding: 16px 24px;
+}
+
+.location:hover {
+  background-color: #B2B2B2;
 }
 
 nav {
