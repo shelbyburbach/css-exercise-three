@@ -3,9 +3,7 @@
 }
 
 body {
-  align-items: baseline;
   background-color: #303030;
-  box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
@@ -27,8 +25,7 @@ h3 {
 }
 
 .arrow {
-  display: block;
-  float: right;
+  display: inline-block;
 }
 
 .location {
@@ -45,7 +42,7 @@ nav {
   background-color: #000;
   margin: 0 auto;
   padding: 10px 0 10px 10px;
-  position: fixed
+  position: fixed;
   width: 100%;
 }
 
