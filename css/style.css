@@ -1,4 +1,4 @@
-*. *:before, *:after{
+*:before, *:after {
   box-sizing: border-box;
 }
 
@@ -8,12 +8,10 @@ body {
   font-size: 16px;
 }
 
-
 .container {
   margin: 0 auto;
   width: 420px;
 }
-
 
 h1 {
   font-size: 1em;
@@ -24,8 +22,9 @@ h3 {
   font-size: .875em; /* 14/16 */
 }
 
-.arrow {
+.content {
   display: inline-block;
+  width: 70%;
 }
 
 .location {
@@ -40,13 +39,8 @@ h3 {
 
 nav {
   background-color: #000;
+  box-sizing: border-box;
   margin: 0 auto;
   padding: 10px 0 10px 10px;
-  position: fixed;
-  width: 100%;
-}
-
-.restaurant-list {
-  line-height: 1.25em;
   width: 100%;
 }
